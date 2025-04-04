@@ -8,15 +8,18 @@ use vipers::prelude::*;
 
 mod proxy_seeds;
 
-declare_id!("UBEBk5idELqykEEaycYtQ7iBVrCg6NmvFSzMpdr22mL");
+// declare_id!("UBEBk5idELqykEEaycYtQ7iBVrCg6NmvFSzMpdr22mL");
+declare_id!("6w8h5eYn7WtAwLJw6pXhq5zRZbYRs3qzs4iEmVsokKbj");
 
 /// Address of the mint proxy program's state associated account.
 pub const PROXY_STATE_ACCOUNT: Pubkey =
-    static_pubkey::static_pubkey!("9qRjwMQYrkd5JvsENaYYxSCgwEuVhK4qAo5kCFHSmdmL");
+    // static_pubkey::static_pubkey!("9qRjwMQYrkd5JvsENaYYxSCgwEuVhK4qAo5kCFHSmdmL");
+    static_pubkey::static_pubkey!("4gE3B3bM1Kd9sFionymCbGUUG9ubK8CRfhPU6T2AwvfF");
 
 /// Address of the proxy mint authority.
 pub const PROXY_MINT_AUTHORITY: Pubkey =
-    static_pubkey::static_pubkey!("GyktbGXbH9kvxP8RGfWsnFtuRgC7QCQo2WBqpo3ryk7L");
+    // static_pubkey::static_pubkey!("GyktbGXbH9kvxP8RGfWsnFtuRgC7QCQo2WBqpo3ryk7L");
+    static_pubkey::static_pubkey!("8ZXSLhTBwDiyJRmsvVcCQcPzQDhJu7dcV2wt3UeH33bY");
 
 /// Stub for invoking [mint_proxy::MintProxy::perform_mint].
 #[cfg(feature = "cpi")]

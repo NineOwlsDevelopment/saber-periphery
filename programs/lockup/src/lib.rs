@@ -24,7 +24,8 @@ use vipers::prelude::*;
 
 pub mod calculator;
 
-declare_id!("LockKXdYQVMbhhckwH3BxoYJ9FYatcZjwNGEuCwY33Q");
+// declare_id!("LockKXdYQVMbhhckwH3BxoYJ9FYatcZjwNGEuCwY33Q");
+declare_id!("3URwpbFwavtbASHazrotYz85XjtFxuVgDgcWTDAGwTRm");
 
 /// Saber token lockup program.
 #[program]

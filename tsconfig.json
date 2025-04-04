@@ -4,7 +4,8 @@
     "module": "CommonJS",
     "noEmit": true,
     "lib": ["ES2019"],
-    "types": ["node"]
+    "types": ["node", "mocha", "chai"]
   },
   "include": ["src/", "tests/", ".eslintrc.cjs", ".mocharc.cjs"]
 }
+
